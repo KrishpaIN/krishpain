@@ -1,0 +1,80 @@
+html{
+   overflow-x:hidden;
+}
+section{
+   width:100vw;
+   height:auto;
+}
+section:nth-child(2n){
+   background-color:#abffc4;
+}
+section:nth-child(6){
+   background-color:#fff;
+}
+section:nth-child(6) h1, h{
+   color:#00d941;
+}
+section:nth-child(7){
+   background-color:#abffc4;
+   
+}
+section:nth-child(2n+1) h1,h2{
+   color:#00d941
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+h1{
+   font-size:5vw;
+}
+p{
+   font-size:1.2vw;
+}
+@media screen and (max-width: 500px) {
+   h1 {
+      font-size: 10vw;
+   }
+   p{
+      font-size:5vw;
+   }
+}
+
+hr{
+   width:100px;
+   height:5px;
+   background-color:green;
+}
+.top-50{
+   margin-top:100px;
+}
+footer{
+   background-color:black;
+   color:white;
+}
+h1, h2{
+   font-weight:1000;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color:transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color:green;
+}
+
+.card{
+   background-color:#d6ffdc;
+   outline:none !important;
+   border:none !important;
+   margin:30px 10px 10px 10px;
+}
+.card img{
+   width:100px;
+   padding:20px;
+}
