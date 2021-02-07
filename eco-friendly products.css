@@ -8,16 +8,11 @@ section{
 section:nth-child(2n){
    background-color:#abffc4;
 }
-section:nth-child(6){
-   background-color:#fff;
-}
+
 section:nth-child(6) h1, h{
    color:#00d941;
 }
-section:nth-child(7){
-   background-color:#abffc4;
-   
-}
+
 section:nth-child(2n+1) h1,h2{
    color:#00d941
 }
@@ -73,8 +68,19 @@ h1, h2{
    outline:none !important;
    border:none !important;
    margin:30px 10px 10px 10px;
+   height:50vh;
+   padding:20px;
+}
+.card p{
+   font-size:1rem;
+}
+.card h3{
+   font-weight: bolder;;
 }
 .card img{
    width:100px;
    padding:20px;
+}
+.outer-menu .menu > div > div {
+   max-width:25vw !important;
 }
